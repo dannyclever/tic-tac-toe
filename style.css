@@ -49,3 +49,15 @@ button {
     outline: none;
 }
 
+.header {
+    padding: 20px;
+    border-bottom: 3px solid var(--blue-border-color);
+    background-color: var(--header-background-color);
+    color: var(--header-font-color);
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+}
+
