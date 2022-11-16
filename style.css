@@ -36,9 +36,11 @@ body {
     margin-bottom: 80px;
 }
 
+
 h1 {
     line-height: 1.3;
 }
+
 
 button {
     border: none;
@@ -48,6 +50,8 @@ button {
     cursor: pointer;
     outline: none;
 }
+
+/* HEADER */
 
 .header {
     padding: 20px;
@@ -61,3 +65,43 @@ button {
     text-align: center;
 }
 
+/* MAIN */
+
+.main {
+    padding: 0 20px;
+}
+
+.message {
+    padding: 20px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 454px;
+    height: 454px;
+    border: 2px solid var(--border-color);
+    margin: 0 auto;
+}
+
+.field {
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--field-background-color);
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.field:hover {
+    background-color: var(--field-background-color-hover);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
