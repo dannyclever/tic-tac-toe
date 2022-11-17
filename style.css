@@ -148,3 +148,41 @@ button {
 .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
 }
+
+@media (max-width: 660) {
+    .title {
+        font-size: 60px;
+    }
+
+    .message {
+        font-size: 40px;
+    }
+
+    .restart-button {
+        font-size: 40px;
+    }
+
+    .gameboard {
+        width: 304px;
+        height: 304px;
+    }
+
+    .field {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 420px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .message {
+        font-size: 36px;
+    }
+
+    .restart-button {
+        font-size: 36px;
+    }
+}
