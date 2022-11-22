@@ -17,3 +17,5 @@ Choose X or O and let the game begin!
 **Neto Daniel ZINGA**
 - Github: [@dannyclever](https://github.com/dannyclever)
 - Email: [Neto Danile Zinga](danielnzinga5@gmail.com)
+
+[Version live](https://dannyclever.github.io/tic-tac-toe/)
