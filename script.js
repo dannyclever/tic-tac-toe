@@ -17,7 +17,7 @@ const gameBoard = (() => {
     
     const setField = (index, sign) => {
         if (index > board.length) return;
-        return board[index];
+        return board[index] = sign;
     };
 
 
