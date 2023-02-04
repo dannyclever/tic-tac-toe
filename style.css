@@ -153,10 +153,6 @@ button {
 /* MEDIA QUERIES */
 
 @media (max-width: 660) {
-    .title {
-        font-size: 60px;
-    }
-
     .message {
         font-size: 40px;
     }
@@ -177,15 +173,17 @@ button {
 }
 
 @media (max-width: 420px) {
-    .title {
-        font-size: 50px;
-    }
-
     .message {
         font-size: 36px;
     }
 
     .restart-button {
         font-size: 36px;
+    }
+}
+
+@media (max-width: 578px) {
+    .title {
+        font-size: 80px;
     }
 }
